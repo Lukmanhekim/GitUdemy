@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4"
+	passed="4">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Suite" duration-ms="35268"
+		started-at="2020-05-01T22:35:53Z" finished-at="2020-05-01T22:36:28Z">
+		<groups>
+		</groups>
+		<test name="Test" duration-ms="35268"
+			started-at="2020-05-01T22:35:53Z" finished-at="2020-05-01T22:36:28Z">
+			<class name="MavenPackage.ValidateNavBar">
+				<test-method status="PASS"
+					signature="basePageNavigation()[pri:0, instance:MavenPackage.ValidateNavBar@37654521]"
+					name="basePageNavigation" duration-ms="38"
+					started-at="2020-05-01T17:36:14Z"
+					finished-at="2020-05-01T17:36:14Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- basePageNavigation -->
+			</class> <!-- MavenPackage.ValidateNavBar -->
+			<class name="MavenPackage.HomePage">
+				<test-method status="PASS"
+					signature="initialize()[pri:0, instance:MavenPackage.HomePage@6d3a388c]"
+					name="initialize" is-config="true" duration-ms="5241"
+					started-at="2020-05-01T17:35:53Z"
+					finished-at="2020-05-01T17:35:58Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="initialize()[pri:0, instance:MavenPackage.ValidateNavBar@37654521]"
+					name="initialize" is-config="true" duration-ms="7824"
+					started-at="2020-05-01T17:35:58Z"
+					finished-at="2020-05-01T17:36:06Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="initialize()[pri:0, instance:MavenPackage.ValidateTitle@15aab8c6]"
+					name="initialize" is-config="true" duration-ms="7957"
+					started-at="2020-05-01T17:36:06Z"
+					finished-at="2020-05-01T17:36:14Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MavenPackage.HomePage@6d3a388c]"
+					name="basePageNavigation" duration-ms="8034"
+					started-at="2020-05-01T17:36:14Z" data-provider="getData"
+					finished-at="2020-05-01T17:36:22Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[Non-restricteduser@abc.com]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[123456]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[Restricted User]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- basePageNavigation -->
+				<test-method status="PASS"
+					signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MavenPackage.HomePage@6d3a388c]"
+					name="basePageNavigation" duration-ms="6002"
+					started-at="2020-05-01T17:36:22Z" data-provider="getData"
+					finished-at="2020-05-01T17:36:28Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[restricteduser@abc.com]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[123456]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[Non-restricted User]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- basePageNavigation -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:MavenPackage.HomePage@6d3a388c]"
+					name="teardown" is-config="true" duration-ms="44"
+					started-at="2020-05-01T17:36:28Z"
+					finished-at="2020-05-01T17:36:28Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:MavenPackage.ValidateNavBar@37654521]"
+					name="teardown" is-config="true" duration-ms="46"
+					started-at="2020-05-01T17:36:28Z"
+					finished-at="2020-05-01T17:36:28Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:MavenPackage.ValidateTitle@15aab8c6]"
+					name="teardown" is-config="true" duration-ms="44"
+					started-at="2020-05-01T17:36:28Z"
+					finished-at="2020-05-01T17:36:28Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+			</class> <!-- MavenPackage.HomePage -->
+			<class name="MavenPackage.ValidateTitle">
+				<test-method status="PASS"
+					signature="basePageNavigation()[pri:0, instance:MavenPackage.ValidateTitle@15aab8c6]"
+					name="basePageNavigation" duration-ms="30"
+					started-at="2020-05-01T17:36:14Z"
+					finished-at="2020-05-01T17:36:14Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- basePageNavigation -->
+			</class> <!-- MavenPackage.ValidateTitle -->
+		</test> <!-- Test -->
+	</suite> <!-- Suite -->
+</testng-results>

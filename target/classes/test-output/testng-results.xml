@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2"
+	passed="2">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="25483"
+		started-at="2020-05-01T21:37:59Z" finished-at="2020-05-01T21:38:25Z">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="25483"
+			started-at="2020-05-01T21:37:59Z" finished-at="2020-05-01T21:38:25Z">
+			<class name="MavenPackage.HomePage">
+				<test-method status="PASS"
+					signature="initialize()[pri:0, instance:MavenPackage.HomePage@5ea434c8]"
+					name="initialize" is-config="true" duration-ms="5313"
+					started-at="2020-05-01T16:37:59Z"
+					finished-at="2020-05-01T16:38:05Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initialize -->
+				<test-method status="PASS"
+					signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MavenPackage.HomePage@5ea434c8]"
+					name="basePageNavigation" duration-ms="13730"
+					started-at="2020-05-01T16:38:05Z" data-provider="getData"
+					finished-at="2020-05-01T16:38:18Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[Non-restricteduser@abc.com]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[123456]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[Restricted User]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- basePageNavigation -->
+				<test-method status="PASS"
+					signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MavenPackage.HomePage@5ea434c8]"
+					name="basePageNavigation" duration-ms="5624"
+					started-at="2020-05-01T16:38:18Z" data-provider="getData"
+					finished-at="2020-05-01T16:38:24Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[restricteduser@abc.com]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[123456]]>
+							</value>
+						</param>
+						<param index="2">
+							<value>
+                <![CDATA[Non-restricted User]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- basePageNavigation -->
+				<test-method status="PASS"
+					signature="teardown()[pri:0, instance:MavenPackage.HomePage@5ea434c8]"
+					name="teardown" is-config="true" duration-ms="805"
+					started-at="2020-05-01T16:38:24Z"
+					finished-at="2020-05-01T16:38:25Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- teardown -->
+			</class> <!-- MavenPackage.HomePage -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
+</testng-results>
